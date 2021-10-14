@@ -18,8 +18,9 @@ continueBtn.onclick = () =>{
                 }
                 else{
                     errorText.style.display = "block";
-                    errorText.textContent = data;
+                    errorText.textContent = data ;
                 }
+
             }
         }
     }
