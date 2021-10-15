@@ -12,7 +12,7 @@
             <h1>Chat with Your friends. </h1>
             <h3>Instant | Secure | Private | Free</h3><br>
             <a href="create_room.php"><button class="btn btn-primary">Create Room</button></a>
-            <a href="create_room.php"><button class="btn btn-primary">Enter into Room</button></a>
+            <a href="enter_room.php"><button class="btn btn-primary">Enter into Room</button></a>
         </div>
         <div class="col">
             <img src="Partials/Images/index.jpg" alt="Chatroom chatting" class="img-fluid">
