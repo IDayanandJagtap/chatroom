@@ -46,5 +46,6 @@
 <?php include_once 'partials/footer.php' ?>
 
 <script src="Js/chatroom.js"></script>
+<?php include_once 'Js/bootstrapJS.php' ?>
 </body>
 </html>

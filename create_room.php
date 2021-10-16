@@ -7,12 +7,13 @@ if (!isset($_SESSION['unique_id'])) {
 
 <?php include_once "header.php"; ?>
 <link rel="stylesheet" href="css/form.css">
+<link rel="stylesheet" href="css/style.css">
 
-<div class="form-container ">
-    <h3 class="mt-2">Create Room</h3>
+<div class="form-container text-light ">
+    <!-- <h3 class="mt-2 text-dark">Create Room</h3> -->
     <div class="wrapper my-4">
         <section class="form croom">
-            <header>DJ Chatroom</header>
+            <header>Create Room</header>
             <form action="" method="POST" enctype="multipart/form-data" autocomplete="off">
                 <div class="error-text"></div>
                 <div class="field input">
@@ -40,6 +41,7 @@ if (!isset($_SESSION['unique_id'])) {
 <?php include_once 'partials/footer.php' ?>
 <script src="Js/pass-show-hide.js"></script>
 <script src="Js/create_room.js"></script>
+<?php include_once 'Js/bootstrapJS.php' ?>
 
 </body>
 

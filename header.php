@@ -16,7 +16,7 @@
             padding: 0;
         }
         .space{
-            min-height: 10vh;
+            min-height: 7vh;
         }
         
     </style>

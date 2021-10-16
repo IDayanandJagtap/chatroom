@@ -5,14 +5,14 @@
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px 20px 10px;
-    background-color: #f7f7f7;
+    background-color: #cac7c7;
   }
   h1 {
     margin: 27px;
     padding: 3px;
   }
   .wrapper {
-    background: #f8f5f515;
+    background: #fff;
     max-width: 450px;
     width: 100%;
     border-radius: 16px;

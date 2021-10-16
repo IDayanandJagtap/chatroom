@@ -9,10 +9,10 @@ if (isset($_SESSION['unique_id'])) {
 <link rel="stylesheet" href="css/form.css">
 
 <div class="form-container ">
-    <h3 class="mt-2">Login to Continue</h3>
+    <!-- <h3 class="mt-2">Login to Continue</h3> -->
     <div class="wrapper my-4">
         <section class="form login">
-            <header>DJ Chatroom</header>
+            <header>Login to continue</header>
             <form action="" method="POST" enctype="multipart/form-data" autocomplete="off">
                 <div class="error-text"></div>
                 <div class="field input">
@@ -35,6 +35,7 @@ if (isset($_SESSION['unique_id'])) {
 <?php include_once 'partials/footer.php' ?>
 <script src="Js/pass-show-hide.js"></script>
 <script src="Js/login.js"></script>
+<?php include_once 'Js/bootstrapJS.php' ?>
 
 </body>
 
